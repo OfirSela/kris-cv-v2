@@ -1,17 +1,12 @@
 export default [
   {
     key: 'hebrew',
-    label: 'עברית',
-    value: 5,
-  },
-  {
-    key: 'russian',
-    label: 'רוסית',
+    label: 'Hebrew',
     value: 5,
   },
   {
     key: 'english',
-    label: 'אנגלית',
-    value: 3,
+    label: 'English',
+    value: 5,
   },
 ];
