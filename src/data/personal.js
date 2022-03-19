@@ -1,22 +1,17 @@
 export default [
   {
     key: 'address',
-    label: 'כתובת',
-    value: 'חיפה, ישראל',
+    label: 'Address',
+    value: 'Ramat-gan',
   },
   {
     key: 'phone',
-    label: 'מספר טלפון',
-    value: '0546-398-195',
+    label: 'Phone number',
+    value: '054-6506609',
   },
   {
     key: 'email',
-    label: 'אימייל',
-    value: '25kristy25@gmail.com',
-  },
-  {
-    key: 'birthDate',
-    label: 'תאריך לידה',
-    value: 'יולי 1989',
+    label: 'Email',
+    value: 'selaofir7@gmail.com',
   },
 ];

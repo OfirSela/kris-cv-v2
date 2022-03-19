@@ -1,103 +1,89 @@
 export default [
   {
     key: 'summary',
-    title: 'תקציר',
+    title: 'Summary',
     icon: 'user',
     places: [
       {
-        title: 'מטפלת בשיטת אלבאום',
+        title: 'Computer science student and a junior developer',
       },
     ],
   },
   {
     key: 'jobs',
-    title: 'ניסיון תעסוקתי',
+    title: 'Work experience',
     icon: 'suitcase',
     places: [
       {
-        title: 'מטפלת בשיטת אלבאום לקשיי תפקוד ולמידה',
-        type: 'עובד עצמאי',
+        title: 'AutoCad tutoring',
+        type: 'Self employed',
         company: null,
-        location: 'חיפה',
-        startDate: '2018',
-        endDate: '2021',
+        startDate: '2020',
+        endDate: '',
         descriptionBullets: [
-          "הדרכת סדנאות להכנה לכיתות א' במתכונת קבוצתית ופרטנית",
-          "מתמחה בהוראה מתקנת לתלמידי בבתי ספר יסודיים וחטיבה",
-          "עיקר שיטת הטיפול הינה רב ממדית, המשלבת טכניקות הוליסטיות ואשר ההתמקדות בה היא במתן כלים דידקטיים, מנטליים וחברתיים לשיפור מיומניות המטופל",
+          "Tutoring civil engeneering students how to use AutoCad effectivly",
+         "Helping and guiding on students projects",
         ],
       },
       {
-        title: 'סייעת / מטפלת',
-        type: 'משרה חלקית',
-        company: 'גן תלתלים',
-        location: 'חיפה',
-        startDate: '2018',
-        endDate: '2019',
-        descriptionBullets: [
-          "עבודה בשני גנים הפועלים לפי גישת אלבאום",
-          "טיפול בקבוצות ילדים מגילאי 3 חודשים וקבוצת ילדים בגילאי 2-4",
-          "חניכת פעילויות ומפגשי העשרה ופיתוח יצירתיות",
-        ],
-      },
-      {
-        title: 'מוקד גבייה טלפוני בחברת ביטוח הראל',
-        type: 'משרה חלקית',
-        company: 'קופת חולים כללית הראל',
-        location: 'נשר',
+        title: 'Manager',
+        type: 'Full time job',
+        company: 'Tomashin',
         startDate: '2018',
         endDate: '2020',
-        description: 'במסגרת עבודתי עסקתי בגבייה טלפונית יזומה ללקוחות בגין חובות, פיגורים ותשלומים שוטפים',
-      },
-      {
-        title: 'עבודה עם נערות בסיכון',
-        type: 'עובד עצמאי',
-        company: 'פרויקט סלע',
-        location: 'קריית שמונה',
-        startDate: '2016',
-        endDate: '2017',
         descriptionBullets: [
-          "בניית תכנית לסיוע לנערות בסיכון ורכישת מיומנויות מגוונות בתחום החברתי ובתחום הלימודי",
-          "יישום התכנית למשך כשנה על בסיס מפגשים פרטניים שבועיים וקבוצתיים אחת לחודש",
+          "Managing a team of over 100 employees and making sure we achive the company goals ",
+          "Solving problems on the go in order to insure the operation runs smoothly",
+          "Handling customer satisfaction and setting up weekly goals",
+          "Sending daily/montly/yearly Excel detail reports"
         ],
       },
       {
-        title: 'אסיסטנטית במרפאה וטרינרית',
-        type: 'עובד עצמאי',
-        company: 'פרויקט סלע',
-        location: 'קריית שמונה',
-        startDate: '2009',
-        endDate: '2011',
-        description: "התפקיד כלל טיפול שוטף בבעלי החיים השונים, כולל מתן תרופתי, מענה טלפוני וקבלת קהל, עמידה בלחצים והתמודדות מול סיטואציות מאתגרות, יחסי אנוש מעולים ויכולת ורבאלית גבוהה.",
+        title: 'CEO and owner of a constraction company',
+        type: 'Full time job',
+        company: 'O.G.Sela real estate and invsements inc',
+        startDate: '2017',
+        endDate: '2018',
+        descriptionBullets: [
+          "Project managing",
+          "Closing contracts and setting up goals",
+          "Handling bureaucracy",
+          "Supervising",
+          "Managing employees"
+        ],
+      },
+      {
+        title: 'Project manager',
+        type: 'Full time job',
+        company: 'AGS real estate inc',
+        startDate: '2015',
+        endDate: '2017',
+        descriptionBullets: [
+          "Project managing"
+        ],
       },
     ],
   },
   {
     key: 'education',
-    title: 'השכלה',
+    title: 'Education',
     icon: 'graduation-cap',
     places: [
+    
       {
-        title: "סדנת מנחי מוכנות לכיתה א' בגישת אלבאום",
-        academy: 'מכללת מור',
-        startDate: '2017',
-        endDate: '2018',
+        title: "Computer science",
+        academy: 'HIT - Holon Institute of Technology',
+        startDate: '2021',
+        endDate: '-',
+        description: "Computer science student with 94 GPA"
       },
       {
-        title: "מטפלת בשיטת אלבאום",
-        academy: 'מכללת מור',
-        startDate: '2015',
-        endDate: '2018',
-        description: "טיפול בשיטת אלבאום הייעודית לפיתוח ומימוש עצמי רב מימדי, לילדים ומבוגרים באמצעות מיקוד על ארבע אינטילגינציות מרכזיות: גוף, נפש, רגש וחוש",
-      },
-      {
-        title: "תואר ראשון בלקויות למידה בשילוב אמנויות",
-        academy: 'המכללה האקדמית תל חי',
-        startDate: '2012',
-        endDate: '2017',
+        title: "practical civil engineering",
+        academy: 'Shenkar',
+        startDate: '2019',
+        endDate: '2021',
         descriptionBullets: [
-          "סיום התואר בממוצע 85",
-          "עבודת סמינריון לסיום התואר עסקה בהתבוננות רב מערכתית של קבוצת לקויי למידה הנמצאות במערכות יחסים זוגית",
+          "Graduate With Great Honors"
         ],
       },
     ],
