@@ -16,37 +16,31 @@
           </li>
         </ul>
       </SideSection>
-      <SideSection icon="english-to-chinese" title="שפות">
+      <SideSection icon="english-to-chinese" title="languages">
         <Languages />
       </SideSection>
-      <SideSection icon="shield" title="שירות צבאי">
+      <SideSection icon="shield" title="Military Service">
         <h5 class="field-label">
-          2009-2011
+          2008-2011
         </h5>
         <p class="army-service">
-          ראש לשכת אטק"ל
+         Armory command center - Air force.
         </p>
         <ul class="description-bullets">
           <li class="bullet">
-            ניהול קשרי החוץ של הלשכה
-          </li>
-          <li class="bullet">
-            קידום שיתופי פעולה ונושאים אשר על סדר היום הארגוני
+            Micro managing situations
           </li>
         </ul>
       </SideSection>
-      <SideSection icon="heart-medical" title="התנדבויות">
-        <ul class="volunteerings">
-          <li v-for="volunteering in volunteerings" :key="volunteering.key" class="volunteering">
-            <h5 class="volunteering-dates">
-              {{ volunteering.dates }}
-            </h5>
-            <p class="volunteering-title">
-              {{ volunteering.title }}
+      <SideSection icon="heart-medical" title="Programming Languages">
+        <ul class="programming-languages">
+          <li v-for="prog in volunteerings" :key="prog.key" class="prog">
+            <p class="prog-title">
+              {{ prog.title }}
             </p>
-            <p class="volunteering-description">
-              {{ volunteering.description }}
-            </p>
+            <div class="prog-value">
+              <div class="progress" :class="`level-${prog.value}`" />
+            </div>
           </li>
         </ul>
       </SideSection>
@@ -68,6 +62,7 @@
           <Section
             :iconName="section.icon"
             :title="section.title"
+            :company="section.company"
             :places="section.places"
           />
         </li>
@@ -92,8 +87,8 @@
       Languages,
     },
     data: () => ({
-      name: 'קריסטינה קרפה קורבוט אוריה',
-      role: 'מטפלת בשיטת אלבאום',
+      name: 'Ofir Salomon',
+      role: 'Computer science student and Junior developer',
     }),
     computed: {
       sections() {
@@ -134,22 +129,46 @@
       padding: $spacer * 2 $spacer;
       background: $primary;
       color: $light;
+      font-size: $font-size-sm;
 
-      .volunteerings {
-        .volunteering {
+      .programming-languages {
+        .prog {
           margin-bottom: $spacer / 2;
 
-          .volunteering-dates {
-            color: $gray-2;
-            font-size: $font-size-sm;
-          }
+            .prog-value {
+              width: 90%;
+              height: 5px;
+              border-radius: 1px;
+              background: $bright;
 
-          .volunteering-title {
-            font-size: $font-size-sm;
-          }
+              .progress {
+                background: $white;
+                height: 5px;
 
-          .volunteering-description {
-            font-size: $font-size-xs;
+                &.level-1 {
+                  width: 20%;
+                }
+
+                &.level-2 {
+                  width: 40%;
+                }
+
+                &.level-3 {
+                  width: 60%;
+                }
+
+                &.level-4 {
+                  width: 80%;
+                }
+
+                &.level-5 {
+                  width: 100%;
+                }
+              }
+            }
+
+          .prog-title {
+            font-size: $font-size-sm;
           }
         }
       }
@@ -177,7 +196,7 @@
         }
 
         .role-summary {
-          font-size: $font-size-xl;
+          font-size: $font-size-lg;
         }
       }
 

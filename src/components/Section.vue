@@ -7,6 +7,9 @@
       <h4 class="section-title">
         {{ title }}
       </h4>
+      <h5 class="section-company">
+        {{ company }}
+      </h5>
     </div>
     <div class="section-content">
       <div class="gap" />
@@ -40,6 +43,9 @@
         type: String,
         required: true,
       },
+        company: {
+        type: String,
+      },
       places: {
         type: Array,
         default: () => [],
@@ -64,6 +70,16 @@
       }
 
       .section-title {
+        padding: 0 $spacer / 2;
+        width: fit-content;
+        background: $primary;
+        color: $light;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .section-company{
         padding: 0 $spacer / 2;
         width: fit-content;
         background: $primary;

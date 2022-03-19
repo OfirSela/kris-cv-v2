@@ -34,6 +34,7 @@
     .side-title {
       display: flex;
       align-items: center;
+      font-size: 12px;
 
       .unicon {
         padding-top: 4px;

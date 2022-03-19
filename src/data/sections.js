@@ -5,7 +5,7 @@ export default [
     icon: 'user',
     places: [
       {
-        title: 'Computer science student and a junior developer',
+        title: 'Computer science student and a junior developer, Looking for a student position',
       },
     ],
   },
@@ -19,14 +19,14 @@ export default [
         type: 'Self employed',
         company: null,
         startDate: '2020',
-        endDate: '',
+        endDate: '-',
         descriptionBullets: [
-          "Tutoring civil engeneering students how to use AutoCad effectivly",
+          "Tutoring civil engeneering students how to use AutoCad effectively",
          "Helping and guiding on students projects",
         ],
       },
       {
-        title: 'Manager',
+        title: 'Manager - After school company',
         type: 'Full time job',
         company: 'Tomashin',
         startDate: '2018',
