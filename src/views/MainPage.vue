@@ -3,7 +3,7 @@
     <aside class="side">
       <SideSection
         icon="user-square"
-        title="פרטים אישיים"
+        title="Personal info"
       >
         <ul class="fields">
           <li v-for="field in personalFields" :key="field.key" class="field">
@@ -145,7 +145,7 @@
           }
 
           .volunteering-title {
-            // font-size: $font-size-sm;
+            font-size: $font-size-sm;
           }
 
           .volunteering-description {
