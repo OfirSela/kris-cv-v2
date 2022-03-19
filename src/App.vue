@@ -35,7 +35,6 @@
     -moz-osx-font-smoothing: grayscale;
     background: gray;
     color: #2c3e50;
-    direction: rtl;
     display: flex;
     justify-content: center;
     padding: 16px;
