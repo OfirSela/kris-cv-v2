@@ -9,4 +9,9 @@ export default [
     label: 'English',
     value: 5,
   },
+  {
+    key: 'japanese',
+    label: 'Japanese',
+    value: 2,
+  },
 ];

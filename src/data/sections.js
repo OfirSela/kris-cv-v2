@@ -5,43 +5,43 @@ export default [
     icon: 'user',
     places: [
       {
-        title: 'Computer science student and a junior developer, Looking for a student position',
+        title: 'Computer science student and a junior developer, looking for a student position',
       },
     ],
   },
   {
     key: 'jobs',
-    title: 'Work experience',
+    title: 'Work Experience',
     icon: 'suitcase',
     places: [
       {
-        title: 'AutoCad tutoring',
-        type: 'Self employed',
+        title: 'AutoCad Tutoring',
+        type: 'Self Employed',
         company: null,
         startDate: '2020',
-        endDate: '-',
+        endDate: 'Ongoing',
         descriptionBullets: [
-          "Tutoring civil engeneering students how to use AutoCad effectively",
-         "Helping and guiding on students projects",
+          "Tutoring civil engineering students how to use AutoCad effectively",
+          "Helping and guiding on student projects",
         ],
       },
       {
-        title: 'Manager - After school company',
-        type: 'Full time job',
+        title: 'Human Resource Manager',
+        type: 'Full Time Job',
         company: 'Tomashin',
         startDate: '2018',
         endDate: '2020',
         descriptionBullets: [
-          "Managing a team of over 100 employees and making sure we achive the company goals ",
-          "Solving problems on the go in order to insure the operation runs smoothly",
+          "Managing a team of over 100 employees to meet the company goals ",
+          "Solving problems on the go in order to ensure the operation runs smoothly",
           "Handling customer satisfaction and setting up weekly goals",
-          "Sending daily/montly/yearly Excel detail reports"
+          "Sending daily, monthly and yearly Excel detailed reports"
         ],
       },
       {
-        title: 'CEO and owner of a constraction company',
-        type: 'Full time job',
-        company: 'O.G.Sela real estate and invsements inc',
+        title: 'CEO and Owner - Construction Company',
+        type: 'Full Time Job',
+        company: 'O.G.Sela Real Estate and Invsetments inc.',
         startDate: '2017',
         endDate: '2018',
         descriptionBullets: [
@@ -53,9 +53,9 @@ export default [
         ],
       },
       {
-        title: 'Project manager',
-        type: 'Full time job',
-        company: 'AGS real estate inc',
+        title: 'Project Manager',
+        type: 'Full Time Job',
+        company: 'AGS Real Estate inc.',
         startDate: '2015',
         endDate: '2017',
         descriptionBullets: [
@@ -69,21 +69,21 @@ export default [
     title: 'Education',
     icon: 'graduation-cap',
     places: [
-    
+
       {
-        title: "Computer science",
+        title: "Computer Science",
         academy: 'HIT - Holon Institute of Technology',
         startDate: '2021',
-        endDate: '-',
-        description: "Computer science student with 94 GPA"
+        endDate: 'Ongoing',
+        description: "Computer Science Student with 94 GPA"
       },
       {
-        title: "practical civil engineering",
+        title: "Practical Civil Engineering",
         academy: 'Shenkar',
         startDate: '2019',
         endDate: '2021',
         descriptionBullets: [
-          "Graduate With Great Honors"
+          "Graduated With Great Honors"
         ],
       },
     ],

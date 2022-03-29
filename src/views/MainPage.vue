@@ -24,9 +24,9 @@
           2008-2011
         </h5>
         <p class="army-service">
-         Armory command center - Air force.
+         Armory command center - Air force
         </p>
-        <ul class="description-bullets">
+        <ul class="description-bullets no-list-style">
           <li class="bullet">
             Micro managing situations
           </li>
@@ -34,13 +34,25 @@
       </SideSection>
       <SideSection icon="heart-medical" title="Programming Languages">
         <ul class="programming-languages">
-          <li v-for="prog in volunteerings" :key="prog.key" class="prog">
+          <li v-for="prog in programmingLanguages" :key="prog.key" class="prog">
             <p class="prog-title">
               {{ prog.title }}
             </p>
             <div class="prog-value">
               <div class="progress" :class="`level-${prog.value}`" />
             </div>
+          </li>
+        </ul>
+      </SideSection>
+      <SideSection icon="envelope-edit" title="Social">
+        <ul class="social-media">
+          <li class="social-item">
+            <a href="http://www.linkedin.com/in/ofirsela7/" target="_blank" class="social-link">
+              <unicon name="linkedin" fill="#0a66c2" height="32" class="social-icon" />
+              <span class="social-label">
+                LinkedIn
+              </span>
+            </a>
           </li>
         </ul>
       </SideSection>
@@ -74,7 +86,7 @@
 <script>
   import personalFields from '@/data/personal';
   import sections from '@/data/sections';
-  import volunteerings from '@/data/volunteerings';
+  import programmingLanguages from '@/data/programmingLanguages';
   import Languages from '@/components/Languages';
   import Section from '@/components/Section';
   import SideSection from '@/components/SideSection';
@@ -87,7 +99,7 @@
       Languages,
     },
     data: () => ({
-      name: 'Ofir Salomon',
+      name: 'Ofir Sela',
       role: 'Computer science student and Junior developer',
     }),
     computed: {
@@ -97,8 +109,8 @@
       personalFields() {
         return personalFields;
       },
-      volunteerings() {
-        return volunteerings;
+      programmingLanguages() {
+        return programmingLanguages;
       },
     },
   }
@@ -189,7 +201,7 @@
       color: black;
 
       .primary-info {
-        @include gridded();
+        // @include gridded();
 
         .name {
           font-size: $font-size-huge;
@@ -227,11 +239,30 @@
     font-size: $font-size-sm;
     list-style: square;
     padding-right: $spacer * 1.5;
+
+    &.no-list-style {
+      list-style: none;
+    }
   }
 
   .bullet {
     & + & {
       margin-top: $spacer / 6;
+    }
+  }
+
+  .social-link {
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    .social-icon {
+      margin-left: -$spacer / 2;
+    }
+
+    .social-label {
+      margin-left: $spacer / 4;
     }
   }
 </style>

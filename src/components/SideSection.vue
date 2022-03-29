@@ -38,7 +38,7 @@
 
       .unicon {
         padding-top: 4px;
-        margin-left: $spacer / 4;
+        margin-left: -$spacer / 4;
       }
     }
   }

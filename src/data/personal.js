@@ -2,7 +2,7 @@ export default [
   {
     key: 'address',
     label: 'Address',
-    value: 'Ramat-gan',
+    value: 'Ramat Gan',
   },
   {
     key: 'phone',

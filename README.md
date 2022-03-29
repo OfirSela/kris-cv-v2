@@ -1,4 +1,4 @@
-# kris-cv-v2
+# ofir-cv
 
 ## Project setup
 ```

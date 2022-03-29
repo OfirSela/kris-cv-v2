@@ -54,9 +54,15 @@
       font-size: 11px;
     }
 
+    .company {
+      padding: $spacer / 4 0;
+      margin-left: -$spacer / 4;
+    }
+
     .dates {
       color: $gray-1;
       font-size: $font-size-xs;
+      padding: $spacer / 4 0;
     }
 
     .description {
@@ -68,6 +74,7 @@
       font-size: $font-size-sm;
       list-style: square;
       padding-right: $spacer * 1.5;
+      padding-left: $spacer;
     }
   }
 </style>
